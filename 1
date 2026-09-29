@@ -1,0 +1,318 @@
+index.html<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VORTEX WATCHES</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <div class="logo">
+    VORTEX
+    <span>WATCHES</span>
+  </div>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#collection">Collection</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <a href="#collection" class="shop-btn">SHOP NOW</a>
+</header>
+
+
+<section class="hero" id="home">
+
+  <div class="hero-text">
+
+    <p class="small-title">THE NEW STANDARD OF TIME</p>
+
+    <h1>
+      TIME.<br>
+      <span>MADE POWERFUL.</span>
+    </h1>
+
+    <p>
+      Bold watches for people who don't settle for ordinary.
+      Discover your next statement piece.
+    </p>
+
+    <div class="buttons">
+      <a href="#collection" class="main-btn">EXPLORE COLLECTION</a>
+
+      <a href="javascript:orderGeneral()" class="second-btn">
+        ORDER ON WHATSAPP
+      </a>
+    </div>
+
+    <div class="stats">
+      <div>
+        <b>COD</b>
+        <small>Pakistan Wide</small>
+      </div>
+
+      <div>
+        <b>PREMIUM</b>
+        <small>Selected Designs</small>
+      </div>
+
+      <div>
+        <b>FAST</b>
+        <small>Delivery</small>
+      </div>
+    </div>
+
+  </div>
+
+
+  <div class="hero-watch">
+
+    <div class="watch">
+      <div class="watch-face">
+        <strong>V</strong>
+        <span>VORTEX</span>
+        <b>10:10</b>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+
+<section class="collection" id="collection">
+
+  <div class="section-title">
+    <p>THE COLLECTION</p>
+    <h2>Choose Your <span>Statement.</span></h2>
+  </div>
+
+
+  <div class="products">
+
+
+    <!-- PRODUCT 1 -->
+
+    <div class="product">
+
+      <div class="product-image">
+
+        <img
+          src="images/watch-1.jpg"
+          alt="Night Commander"
+          onerror="this.style.display='none';"
+        >
+
+        <div class="placeholder">
+          WATCH 01
+        </div>
+
+        <label>BESTSELLER</label>
+
+      </div>
+
+      <div class="product-info">
+
+        <small>VORTEX SERIES</small>
+
+        <h3>Night Commander</h3>
+
+        <p>
+          Bold black design for a powerful everyday look.
+        </p>
+
+        <div class="price">
+          <strong>Rs. 3,500</strong>
+          <del>Rs. 4,200</del>
+        </div>
+
+        <button onclick="order('Night Commander','3500')">
+          ORDER ON WHATSAPP
+        </button>
+
+      </div>
+
+    </div>
+
+
+
+    <!-- PRODUCT 2 -->
+
+    <div class="product">
+
+      <div class="product-image">
+
+        <img
+          src="images/watch-2.jpg"
+          alt="Midnight Blue"
+          onerror="this.style.display='none';"
+        >
+
+        <div class="placeholder">
+          WATCH 02
+        </div>
+
+        <label>NEW</label>
+
+      </div>
+
+      <div class="product-info">
+
+        <small>VORTEX SERIES</small>
+
+        <h3>Midnight Blue</h3>
+
+        <p>
+          Black and blue finish made to stand out.
+        </p>
+
+        <div class="price">
+          <strong>Rs. 3,500</strong>
+        </div>
+
+        <button onclick="order('Midnight Blue','3500')">
+          ORDER ON WHATSAPP
+        </button>
+
+      </div>
+
+    </div>
+
+
+
+    <!-- PRODUCT 3 -->
+
+    <div class="product">
+
+      <div class="product-image">
+
+        <img
+          src="images/watch-3.jpg"
+          alt="Royal Two Tone"
+          onerror="this.style.display='none';"
+        >
+
+        <div class="placeholder">
+          WATCH 03
+        </div>
+
+        <label>LIMITED</label>
+
+      </div>
+
+      <div class="product-info">
+
+        <small>VORTEX SERIES</small>
+
+        <h3>Royal Two-Tone</h3>
+
+        <p>
+          Elegant two-tone design for a premium appearance.
+        </p>
+
+        <div class="price">
+          <strong>Rs. 3,300</strong>
+        </div>
+
+        <button onclick="order('Royal Two-Tone','3300')">
+          ORDER ON WHATSAPP
+        </button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<section class="about" id="about">
+
+  <div>
+    <p>WHY VORTEX</p>
+
+    <h2>
+      Built to make<br>
+      an <span>entrance.</span>
+    </h2>
+  </div>
+
+
+  <div class="features">
+
+    <div>
+      <b>01</b>
+      <h3>Bold Design</h3>
+      <p>
+        Modern designs made for your signature look.
+      </p>
+    </div>
+
+    <div>
+      <b>02</b>
+      <h3>Cash On Delivery</h3>
+      <p>
+        Order online and pay when your package arrives.
+      </p>
+    </div>
+
+    <div>
+      <b>03</b>
+      <h3>Pakistan Wide</h3>
+      <p>
+        Delivery available across Pakistan.
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<section class="contact" id="contact">
+
+  <p>READY WHEN YOU ARE</p>
+
+  <h2>
+    Your time.<br>
+    <span>Your style.</span>
+  </h2>
+
+  <p>
+    Choose your watch and order directly through WhatsApp.
+  </p>
+
+  <a href="javascript:orderGeneral()" class="main-btn">
+    START YOUR ORDER
+  </a>
+
+</section>
+
+
+
+<footer>
+
+  <div class="logo">
+    VORTEX
+    <span>WATCHES</span>
+  </div>
+
+  <p>© 2026 Vortex Watches</p>
+
+  <a href="#home">BACK TO TOP ↑</a>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
