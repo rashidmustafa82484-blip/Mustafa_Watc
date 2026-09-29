@@ -1,0 +1,61 @@
+script.js// APNA WHATSAPP NUMBER YAHAN LIKHO
+// Pakistan format:
+// 923001234567
+//
+// + na lagao
+// starting 0 na lagao
+
+const WHATSAPP_NUMBER = "923001234567";
+
+
+function order(product, price) {
+
+  const message =
+`Assalam o Alaikum,
+
+I want to order from VORTEX WATCHES.
+
+Product: ${product}
+Price: Rs. ${price}
+
+Name:
+Phone:
+Address:
+City:
+
+Payment: Cash on Delivery`;
+
+  const whatsappURL =
+    "https://wa.me/" +
+    WHATSAPP_NUMBER +
+    "?text=" +
+    encodeURIComponent(message);
+
+  window.open(whatsappURL, "_blank");
+}
+
+
+
+function orderGeneral() {
+
+  const message =
+`Assalam o Alaikum,
+
+I want to order a watch from VORTEX WATCHES.
+
+Product:
+Name:
+Phone:
+Address:
+City:
+
+Payment: Cash on Delivery`;
+
+  const whatsappURL =
+    "https://wa.me/" +
+    WHATSAPP_NUMBER +
+    "?text=" +
+    encodeURIComponent(message);
+
+  window.open(whatsappURL, "_blank");
+}
